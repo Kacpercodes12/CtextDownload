@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ctex – Choose Your Edition</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: #f4f6fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #2e3ba7;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.3rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      color: #cfd3f9;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    }
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+    .card {
+      flex: 1;
+      min-width: 280px;
+      background: #f9fbfd;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border: 1px solid #d9e1f2;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #2e3ba7;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #2e3ba7;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #1f2a85;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin: 4rem 0 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📄 Welcome to Ctex</h1>
+    <p>Choose the edition that fits your flow</p>
+  </header>
+
+  <main>
+    <section>
+      <div class="card">
+        <h2>⚡ Ctex Lite</h2>
+        <p>
+          Ultra-lightweight editor for `.txt` files.  
+          No tabs, no distractions. Built for speed and older PCs.
+        </p>
+        <ul>
+          <li>Single-document focus</li>
+          <li>Zero dependencies</li>
+          <li>Minimalist UI</li>
+          <li>Portable and fast</li>
+        </ul>
+        <a href="https://github.com/Kacpercodes12/ctextlite/releases/latest" class="btn">Download Lite Edition</a>
+      </div>
+
+      <div class="card">
+        <h2>🛠️ Ctex</h2>
+        <p>
+          Feature-rich version with theme toggle, font scaling, and a status bar.  
+          Still lightweight, but with creature comforts.
+        </p>
+        <ul>
+          <li>Dark mode support</li>
+          <li>Adjustable font size</li>
+          <li>Status bar and file name</li>
+          <li>Modern install flow</li>
+        </ul>
+        <a href="https://github.com/Kacpercodes12/ctext/releases/latest" class="btn">Download Ctex</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Kacper · Open-source under MIT · Made with Python 🐍
+  </footer>
+</body>
+</html>
